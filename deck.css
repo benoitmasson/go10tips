@@ -4,6 +4,11 @@ h2 {
     font-weight: bold;
 }
 
+h2 + ul,
+h2 + :has(ul) {
+    margin-top: 1em !important;
+}
+
 section {
     justify-content: start !important;
     text-shadow: 5px 5px 10px black;
@@ -47,6 +52,10 @@ section {
 
 .bottom-align {
     align-items: flex-end;
+}
+
+div > ul > li + li {
+    margin-top: 0.5em;
 }
 
 .pros ul {
