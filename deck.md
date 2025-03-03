@@ -16,7 +16,9 @@ class:
     @import url('./deck.css');
 </style>
 
-<div class="flex vertical space-around">
+<div class="flex vertical center">
+
+![height:250px](./images/gopher%20prof.png)
 
 # 1️⃣0️⃣ trucs et astuces
 
@@ -104,14 +106,12 @@ Tech Lead Domaines
 # Des questions ?
 
 <div class="horizontal end bottom-align">
-
 <div class="footnotes">
 
-Images credits: [unsplash.com](https://unsplash.com)
+Images credits: [Unsplash](https://unsplash.com) & [ChatGPT](https://chatgpt.com/)
 Slides: [github.com/benoitmasson/go10tips](https://github.com/benoitmasson/go10tips/)
 
 </div>
-
 </div>
 
 </div>
