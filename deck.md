@@ -238,7 +238,7 @@ Tech Lead Domaines
   - [GoLand](https://www.jetbrains.com/fr-fr/go/)
   - [Vim](https://github.com/fatih/vim-go)
 - [GolangCI-Lint](https://github.com/golangci/golangci-lint): Meta linter
-- [Delve](https://github.com/go-delve/delve): Debugger Go supporté par les differents IDEs
+- [Delve](https://github.com/go-delve/delve): Debugger Go supporté par les différents IDEs
 
 </div>
 
