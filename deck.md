@@ -133,7 +133,7 @@ Tech Lead Domaines
 
 ## 5️⃣ Tests 🧪
 
-- Integrés dans la toolchain avec pleins de features
+- Intégrés dans la toolchain avec plein de features
   => benchmarks, couverture du code, fuzzing, parallelisation
 - Ne pas oublier que `testing.M` existe
 - Différentes pratiques: [table testing](https://go.dev/wiki/TableDrivenTests), [function testing](https://itnext.io/f-tests-as-a-replacement-for-table-driven-tests-in-go-8814a8b19e9e), ...
