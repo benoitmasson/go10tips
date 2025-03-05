@@ -73,7 +73,14 @@ Tech Lead Domaines
 
 <div class="flex vertical start">
 
-<!-- ## 1️⃣ Structure des fichiers 🗂️ -->
+## 1️⃣ Structure des fichiers 🗂️
+
+- Pas vraiment de normes
+  - commencez simple et complexifiez aux besoins
+  - facile à refactoriser
+- Tests à cotés des sources `_test.go`
+- Package `internal` à la racine du module go
+  - permet de ne pas exposer les sous packages
 
 </div>
 
@@ -95,7 +102,17 @@ Tech Lead Domaines
 
 <div class="flex vertical start">
 
-<!-- ## 3️⃣ Build flags 🏳️‍🌈 -->
+## 3️⃣ Go embed 🎁
+
+- Permet d'intégrer vos fichiers statiques dans le binaire
+  ```golang
+  //go:embed dist/index.html
+  var index string // le contenu du fichier est directement stocké en tant que variable
+  //go:embed dist
+  var assets embed.FS // les fichiers sont disponibles via un système de fichiers virtuel
+  ```
+- Vérification de la présence des fichiers à la compilation
+- Peut être combiné avec les build flags
 
 </div>
 
@@ -118,7 +135,12 @@ Tech Lead Domaines
 
 <div class="flex vertical start">
 
-<!-- ## 5️⃣ Tests unitaires 🧪 -->
+## 5️⃣ Tests 🧪
+
+- Intégrés dans la toolchain avec plein de features
+  - benchmarks, couverture, fuzzing, parallélisation
+- Ne pas oublier que `testing.M` existe
+- Différentes pratiques: [table testing](https://go.dev/wiki/TableDrivenTests), [function testing](https://itnext.io/f-tests-as-a-replacement-for-table-driven-tests-in-go-8814a8b19e9e), ...
 
 </div>
 
@@ -198,7 +220,14 @@ Tech Lead Domaines
 
 <div class="flex vertical start">
 
-<!-- ## 1️⃣0️⃣ Packages indispensables 📦 -->
+## 1️⃣0️⃣ Packages indispensables 📦
+
+- [log/slog](https://go.dev/blog/slog): logs structurés
+- [slices](https://pkg.go.dev/slices) + [maps](https://pkg.go.dev/maps): fonctions utiles (merci les génériques)
+- [golang.org/x/sync](https://pkg.go.dev/golang.org/x/sync): errgroup, semaphores, singleflight
+- [http.ServeMux](https://pkg.go.dev/net/http#ServeMux): router HTTP natif
+- [Testify](https://github.com/stretchr/testify) + [Mockery](https://vektra.github.io/mockery/latest/): test suites, assertions, mocks
+- [go-spew](https://github.com/davecc/go-spew): dump de variables de manière lisible
 
 </div>
 
@@ -206,7 +235,14 @@ Tech Lead Domaines
 
 <div class="flex vertical start">
 
-<!-- ## 1️⃣1️⃣ Outils indispensables 🛠️ -->
+## 1️⃣1️⃣ Outils indispensables 🛠️
+
+- IDEs qui utilisent gopls:
+  - [VSCode](https://code.visualstudio.com/docs/languages/go)
+  - [GoLand](https://www.jetbrains.com/fr-fr/go/)
+  - [Vim](https://github.com/fatih/vim-go)
+- [GolangCI-Lint](https://github.com/golangci/golangci-lint): Meta linter
+- [Delve](https://github.com/go-delve/delve): Debugger Go supporté par les différents IDEs
 
 </div>
 
