@@ -105,8 +105,12 @@ Tech Lead Domaines
 ## 3️⃣ Go embed 🎁
 
 - Permet d'intégrer vos fichiers statiques dans le binaire
-  - directement en tant que variables
-  - comme un système de fichiers virtuel
+  ```golang
+  //go:embed dist/index.html
+  var index string // le contenu du fichier est directement stocké en tant que variable
+  //go:embed dist
+  var assets embed.FS // les fichiers sont disponibles via un système de fichiers virtuel
+  ```
 - Vérification de la présence des fichiers à la compilation
 - Peut être combiné avec les build flags
 
@@ -134,7 +138,7 @@ Tech Lead Domaines
 ## 5️⃣ Tests 🧪
 
 - Intégrés dans la toolchain avec plein de features
-  => benchmarks, couverture du code, fuzzing, parallélisation
+  - benchmarks, couverture, fuzzing, parallélisation
 - Ne pas oublier que `testing.M` existe
 - Différentes pratiques: [table testing](https://go.dev/wiki/TableDrivenTests), [function testing](https://itnext.io/f-tests-as-a-replacement-for-table-driven-tests-in-go-8814a8b19e9e), ...
 
