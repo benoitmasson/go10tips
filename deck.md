@@ -18,7 +18,13 @@ class:
 
 <div class="flex vertical center">
 
+<div class="horizontal space-around center-align">
+
+![height:150px](./images/breizhcamp.svg)
+
 ![height:250px](./images/gopher%20prof.png)
+
+</div>
 
 # 1️⃣0️⃣ trucs et astuces
 
@@ -50,7 +56,7 @@ Développeur Domaines
 
 ![width:200px](./images/gwendal.png)
 
-Tech Lead Domaines
+Développeur PaaS
 
 </div>
 </div>
@@ -252,9 +258,12 @@ Tech Lead Domaines
 
 <div class="flex vertical space-between">
 
-# Des questions ?
+# Questions et Feedbacks
 
-<div class="horizontal end bottom-align">
+<div class="horizontal space-between bottom-align">
+
+![width:300px](./images/openfeedback.png)
+
 <div class="footnotes">
 
 Images credits: [Unsplash](https://unsplash.com) & [ChatGPT](https://chatgpt.com/)
