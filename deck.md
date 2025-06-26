@@ -18,7 +18,13 @@ class:
 
 <div class="flex vertical center">
 
+<div class="horizontal space-around center-align">
+
+![height:150px](./images/breizhcamp.svg)
+
 ![height:250px](./images/gopher%20prof.png)
+
+</div>
 
 # 1️⃣0️⃣ trucs et astuces
 
@@ -50,7 +56,7 @@ Développeur Domaines
 
 ![width:200px](./images/gwendal.png)
 
-Tech Lead Domaines
+Développeur PaaS
 
 </div>
 </div>
@@ -146,11 +152,11 @@ Tech Lead Domaines
 
 ---
 
-![bg cover opacity:0.5](./images/broken.jpg)
+![bg cover opacity:0.5](./images/moderation.jpg)
 
 <div class="flex vertical space-around">
 
-# Fausses bonnes idées
+# Avec modération
 
 </div>
 
@@ -220,7 +226,22 @@ Tech Lead Domaines
 
 <div class="flex vertical start">
 
-## 1️⃣0️⃣ Packages indispensables 📦
+## 1️⃣0️⃣ Dépendances 🌴
+
+- Un voyage mouvementé
+  - dossier `vendor`
+  - outils externes
+  - POC officiel abandonné (`dep`)
+- Go modules (go 1.11)
+  - plusieurs versions en parallèle
+
+</div>
+
+---
+
+<div class="flex vertical start">
+
+## 1️⃣1️⃣ Packages indispensables 📦
 
 - [log/slog](https://go.dev/blog/slog): logs structurés
 - [slices](https://pkg.go.dev/slices) + [maps](https://pkg.go.dev/maps): fonctions utiles (merci les génériques)
@@ -235,7 +256,7 @@ Tech Lead Domaines
 
 <div class="flex vertical start">
 
-## 1️⃣1️⃣ Outils indispensables 🛠️
+## 1️⃣2️⃣ Outils indispensables 🛠️
 
 - IDEs qui utilisent gopls:
   - [VSCode](https://code.visualstudio.com/docs/languages/go)
@@ -252,9 +273,12 @@ Tech Lead Domaines
 
 <div class="flex vertical space-between">
 
-# Des questions ?
+# Questions et Feedbacks
 
-<div class="horizontal end bottom-align">
+<div class="horizontal space-between bottom-align">
+
+![width:300px](./images/openfeedback.png)
+
 <div class="footnotes">
 
 Images credits: [Unsplash](https://unsplash.com) & [ChatGPT](https://chatgpt.com/)
