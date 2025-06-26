@@ -152,11 +152,11 @@ Développeur PaaS
 
 ---
 
-![bg cover opacity:0.5](./images/broken.jpg)
+![bg cover opacity:0.5](./images/moderation.jpg)
 
 <div class="flex vertical space-around">
 
-# Fausses bonnes idées
+# Avec modération
 
 </div>
 
@@ -226,7 +226,22 @@ Développeur PaaS
 
 <div class="flex vertical start">
 
-## 1️⃣0️⃣ Packages indispensables 📦
+## 1️⃣0️⃣ Dépendances 🌴
+
+- Un voyage mouvementé
+  - dossier `vendor`
+  - outils externes
+  - POC officiel abandonné (`dep`)
+- Go modules (go 1.11)
+  - plusieurs versions en parallèle
+
+</div>
+
+---
+
+<div class="flex vertical start">
+
+## 1️⃣1️⃣ Packages indispensables 📦
 
 - [log/slog](https://go.dev/blog/slog): logs structurés
 - [slices](https://pkg.go.dev/slices) + [maps](https://pkg.go.dev/maps): fonctions utiles (merci les génériques)
@@ -241,7 +256,7 @@ Développeur PaaS
 
 <div class="flex vertical start">
 
-## 1️⃣1️⃣ Outils indispensables 🛠️
+## 1️⃣2️⃣ Outils indispensables 🛠️
 
 - IDEs qui utilisent gopls:
   - [VSCode](https://code.visualstudio.com/docs/languages/go)
